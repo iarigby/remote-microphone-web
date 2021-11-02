@@ -1,0 +1,14 @@
+{
+  "name": "remote mic",
+  "packageManager": "yarn@3.0.2",
+  "dependencies": {
+    "get-user-media-promise": "^1.1.4",
+    "howler": "^2.2.3",
+    "microphone-stream": "^6.0.1",
+    "parcel": "^2.0.0"
+  },
+  "scripts": {
+    "start": "parcel public/send.html",
+    "build": "parcel build --no-optimize public/send.html"
+  }
+}
